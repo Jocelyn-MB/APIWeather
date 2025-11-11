@@ -62,7 +62,7 @@ Future<Weather> fetchWeather(String city, {int maxRetries = 3}) async {
   // 1. Obtención Segura de la Clave
   final apiKey = dotenv.env['OPEN_WEATHER_API_KEY'];
   const String baseUrl = 'api.openweathermap.org';
-  const String apiPath = '/data/3.0/weather';
+  const String apiPath = '/data/2.5/weather';
 
   if (apiKey == null || apiKey.isEmpty) {
     throw Exception(
