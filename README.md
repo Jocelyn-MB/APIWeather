@@ -46,7 +46,7 @@ flutter:
 .env
 ```
 ## 2. Implementación del Código Flutter
-El siguiente código [main dart](). implementa los siguientes criterios técnicos:
+El siguiente código [main dart](lib/main.dart). implementa los siguientes criterios técnicos:
 ```diff
  ├── Consumo y Datos              Uso del endpoint de clima actual (/data/2.5/weather). El modelo de datos       │                                incluye Ciudad, Temperatura y Descripción.
  ├── HTTPS                        Todas las llamadas a la API usan Uri.https().
