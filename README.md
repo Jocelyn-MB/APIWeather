@@ -1,3 +1,4 @@
+#![Demostración de la Aplicación del Clima](assets/demostracion.gif)
 # secure_weather_app
 
 La aplicación consume la API de OpenWeatherMap, utilizando el endpoint de clima actual (/data/2.5/weather) para obtener la temperatura y una descripción general.
